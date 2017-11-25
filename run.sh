@@ -15,7 +15,7 @@ while getopts 'sb:' flag; do
   esac
 done
 
-# Recompiles if not explicitly asked not to.
+# Recompiles unless explicitly asked not to.
 if [ $compile = true ]
 then
   ./build.sh
