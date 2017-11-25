@@ -52,4 +52,4 @@ There's also an option to suppress the compilation with `-s` flag.
 ### Test
 `./test.sh`
 
-Compiles `src` and `test` directory and runs all `\_.spec.erl` files.
+Compiles `src` and `test` directory and runs all `_.spec.erl` files.
