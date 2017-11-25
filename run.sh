@@ -11,11 +11,11 @@ while getopts 'sb:' flag; do
   case "${flag}" in
     s) compile='false' ;;
     b) main="${OPTARG}" ;;
-    *) error "Unexpected option ${flag}" ;;
+    *) error "Unknown flag ${flag}." ;;
   esac
 done
 
-# Recompiles if needed.
+# Recompiles if not explicitly asked not to.
 if [ $compile = true ]
 then
   ./build.sh

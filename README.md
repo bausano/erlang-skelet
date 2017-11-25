@@ -16,11 +16,7 @@ Fork `develop` branch for pull requests.
 
 2. Give executable permissions to the .sh files.
 
-`chmod +x build.sh`
-
-`chmod +x run.sh`
-
-`chmod +x test.sh`
+`chmod +x build.sh run.sh test.sh`
 
 3. Run `./run.sh` in your terminal. Files are going to be compiled in `bin` directory.
 
