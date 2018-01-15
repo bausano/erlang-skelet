@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Recompiles the bin directory by default.
+# Recompiles the ebin directory by default.
 compile='true'
 
 # Module with boot point start/0.
@@ -21,8 +21,8 @@ then
   ./build.sh
 fi
 
-# Opens bin directory.
-cd bin
+# Opens ebin directory.
+cd ebin
 
 echo -e "\nRunning\n"
 
