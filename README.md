@@ -18,14 +18,14 @@ Fork `develop` branch for pull requests.
 
 `chmod +x build.sh run.sh test.sh`
 
-3. Run `./run.sh` in your terminal. Files are going to be compiled in `bin` directory.
+3. Run `./run.sh` in your terminal. Files are going to be compiled in `ebin` directory.
 
 ## Commands
 
 ### Build
 `./build.sh`
 
-Compiles all files in all subdirectories of `/src` into `/bin`.
+Compiles all files in all subdirectories of `/src` into `/ebin`.
 Output directory can't be changed. However you can specify input directory.
 
 `./build.sh directory`

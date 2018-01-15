@@ -6,7 +6,7 @@
 # Compiles test files.
 ./build.sh test
 
-cd bin
+cd ebin
 
 echo -e "\nRunning tests\n"
 
